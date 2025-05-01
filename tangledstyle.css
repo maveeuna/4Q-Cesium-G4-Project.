@@ -1,0 +1,131 @@
+* {
+    margin-top: 4px;
+    margin-bottom: 50px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("Pics/tower_bg2.png");
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+  
+/*Mother Gothel*/
+
+.mother-gothel {
+    position: relative;
+    width: 852px;
+    top: 20px;
+    left: -50px;
+}
+
+.mother-gothel-name-header {
+    position: absolute;
+    width: 500px;
+    left: 807px;
+    top: 177px;
+}
+
+.speech-bubble1 {
+    position: absolute;
+    width: 1337px;
+    left: 517px;
+    top: -140px;
+}
+
+.story-paragraph1 {
+    position: absolute;
+    font-size: 30px;
+    text-align: justify;
+    top: 370px; 
+    left: 780px;
+    font-family: "Quintessential", serif;
+}
+
+/*Rapunzel*/
+
+.rapunzel {
+    position: relative;
+    width: 950px;
+    left: 1000px;
+}
+
+.rapunzel-name-header {
+    position: absolute;
+    width: 500px;
+    left: 677px;
+    top: 997px;
+}
+
+.speech-bubble2 {
+    position: absolute;
+    width: 1337px;
+    left: 127px;
+    top: 727px;
+}
+
+.story-paragraph2 {
+    position: absolute;
+    font-size: 40px;
+    text-align: right;
+    top: 1260px; 
+    left: 410px;
+    font-family: "Quintessential", serif;
+}
+
+/*Text procedure*/
+
+.continue-text {
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirmation {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px #d27a6b;
+    font-family: "Quintessential", serif;
+}
+
+.confirm-button {
+    border: none;
+    border-radius: 20%;
+    padding: 15px 20px;
+    font-size: 50px;
+}
+
+/*Decision buttons*/
+
+.yes-button {
+    position: absolute;
+    width: 320px;
+    left: 620px;
+    top: 2400px;
+    transition: transform 0.6s ease, opacity 0.8s ease;
+}
+
+.no-button {
+    position: absolute;
+    width: 320px;
+    left: 940px;
+    top: 2400px;
+    transition: transform 0.6s ease, opacity 0.8s ease;
+}
+
+.no-button:hover, .yes-button:hover  {
+    transform: scale(1.2); /* Smoothly scale up the button on hover */
+}
+
+section {
+    display: flex;
+    height: 100vh;
+}
+
+
