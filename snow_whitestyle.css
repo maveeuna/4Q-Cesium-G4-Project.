@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("Pics/sw_bg2.png");
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+/*Evil Queen*/
+
+.evil-queen {
+    position: absolute;
+    width: 967px;
+    top: -20px;
+    left: -331px;
+}
+
+.evil-queen-name-header {
+    position: absolute;
+    width: 450px;
+    left: 647px;
+    top: 227px;
+}
+
+.speech-bubble1 {
+    position: absolute;
+    width: 1277px;
+    left: 317px;
+    top: -130px;
+}
+
+.story-paragraph1 {
+    position: absolute;
+    font-size: 30px;
+    text-align: justify;
+    top: 410px; 
+    left: 657px;
+    font-family: "Quintessential", serif;
+}
+
+.berry-border1 {
+    position: absolute;
+    width: 617px;
+    left: -100px;
+    top: 607px;
+}
+
+/*Snow White*/
+
+.snow-white {
+    position: absolute;
+    width: 642px;
+    left: 1000px;
+    top: 760px;
+}
+
+.snow-white-name-header {
+    position: absolute;
+    width: 450px;
+    left: 467px;
+    top: 1062px;
+}
+
+.speech-bubble2 {
+    position: absolute;
+    width: 1277px;
+    left: -48px;
+    top: 687px;
+}
+
+.story-paragraph2 {
+    position: absolute;
+    font-size: 30px;
+    text-align: right;
+    top: 1200px; 
+    left: 300px;
+    font-family: "Quintessential", serif;
+}
+
+.berry-border2 {
+    position: absolute;
+    width: 617px;
+    left: 979px;
+    top: 1387px;
+    transform: scaleX(-1);
+}
+
+
+/*Text procedure*/
+
+.continue-text {
+    display: flex;
+    height: 150vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirmation {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px #deb169;
+}
+
+/*Decision buttons*/
+
+.yes-button {
+    position: absolute;
+    width: 320px;
+    left: 400px;
+    top: 2000px;
+    transition: transform 0.6s ease, opacity 0.8s ease;
+}
+
+.no-button {
+    position: absolute;
+    width: 320px;
+    left: 800px;
+    top: 2000px;
+    transition: transform 0.6s ease, opacity 0.8s ease;
+}
+
+.no-button:hover, .yes-button:hover  {
+    transform: scale(1.2); /* Smoothly scale up the button on hover */
+}
+
+section {
+    display: flex;
+    height: 90vh;
+}

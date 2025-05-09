@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Final Project</title>
+
+  <meta charset="UTF-8" />
+  <meta name="author" content="Group 4">
+  <meta name="keywords" content="Final Project">
+  <meta name="date-submitted" content="05-09-2025">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Princess+Sofia&family=Pattaya&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="design.css" />
+
+  <!-- External JavaScript -->
+  <script src="app.js" defer></script>
+
+</head>
+
+<body>
+
+  <!-- Background Music -->
+  <audio autoplay loop hidden>
+    <source src="bg-music.mp3" type="audio/mpeg" />
+  </audio>
+
+  <!-- Side Navigation Bar -->
+  <nav class="side-navbar">
+    <ul>
+      <li><a href="#user-info" data-section="user-info">Info</a></li>
+      <li><a href="#home" data-section="home">Home</a></li>
+      <li><a href="#about" data-section="about">About</a></li>
+      <li><a href="#meet-characters" data-section="meet-characters">Characters</a></li>
+      <li><a href="#Options" data-section="Options">Options</a></li>
+    </ul>
+  </nav>
+
+    <!-- User Info Section -->
+    <section id="user-info">
+      <div class="guest-box">
+        <h2>Be our guest!</h2>
+        <form id="guest-form">
+          <input type="text" id="player1Name" placeholder="Player 1 Name" />
+          <input type="text" id="player2Name" placeholder="Player 2 Name" />
+          <button type="submit">Send Names</button>
+        </form>
+        <p id="welcome-msg" style="margin-top: 10px; font-style: italic;"></p>        
+      </div>
+    </section>  
+
+  <!-- Home Section -->
+  <section id="home">
+    <img class="header animation fade-up" src="Pics/connect4_header_nohighlight.png" alt="Header" />
+    <div class="hero-content">
+      <h1>Discover amazing stories of the Princesses by scrolling more!</h1>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Our Game</h2>
+    <p>We have exciting stories waiting for you. Read first the stories of Princesses
+        before experiencing the real game - Connect 4! 
+    </p>
+    <p>A game where 2 players drop discs into the grid, starting in the 
+      middle or at the edge to stack their colored discs upwards, horizontally, or diagonally. The one who gets four checkers in a row wins.</p>
+  </section>
+
+  <!-- Meet Disney Characters Section -->
+  <section id="disney-characters">
+    <h2>Meet Disney Characters</h2>
+    <div class="characters-compilation">
+      <!-- Rapunzel -->
+      <div class="characters-pics">
+        <img src="Pics/rapunzel2.png" alt="Rapunzel" />
+        <h3>Rapunzel</h3>
+      </div>
+      <!-- Evil Queen -->
+      <div class="characters-pics">
+        <img src="Pics/evil_queen2.png" alt="evil_queen" />
+        <h3>Evil Queen</h3>
+      </div>
+      <!-- Mother Gothel -->
+      <div class="characters-pics">
+        <img src="Pics/mother_gothel2.png" alt="mother_gothel" />
+        <h3>Mother Gothel</h3>
+      </div>
+      <!-- Belle -->
+      <div class="characters-pics">
+        <img src="Pics/belle2.png" alt="belle" />
+        <h3>Belle</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Options Section -->
+  <section id="Options" class="aurora-options">
+    <div class="aurora-text-container animation fade-left">
+      <!-- Aurora Image -->
+      <img class="aurora-move" src="Pics/aurora.png" alt="Aurora" />
+      <!-- Caption -->
+      <p class="aurora-caption">Choose a story to play!</p>
+    </div>
+    <!-- Option Buttons -->
+    <div class="option-buttons">
+      <a href="tangledpage.html">
+        <img class="option-button animation fade-right" src="Pics/tangled_button.png" alt="Tangled Button" />
+      </a>
+      <a href="frozenpage.html">
+        <img class="option-button animation fade-right" src="Pics/frozen_button.png" alt="Frozen Button" />
+      </a>
+      <a href="snowwhitepage.html"> 
+        <img class="option-button animation fade-right" src="Pics/snow-white_button.png" alt="Snow White Button" />
+      </a>
+    </div>
+  </section>
+
+</body>
+</html>
